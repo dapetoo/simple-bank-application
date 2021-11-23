@@ -1,0 +1,5 @@
+if(EXISTS "/home/dapetoo/Desktop/C++ Class/Bank_Project/test/hello_test[1]_tests.cmake")
+  include("/home/dapetoo/Desktop/C++ Class/Bank_Project/test/hello_test[1]_tests.cmake")
+else()
+  add_test(hello_test_NOT_BUILT hello_test_NOT_BUILT)
+endif()
